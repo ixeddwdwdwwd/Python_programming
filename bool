@@ -1,0 +1,9 @@
+x = 10
+y = 10
+is_equal = x == y
+not_equal = x != y
+print(not_equal)
+print(is_equal)
+
+print(bool(1))
+print(bool(0)) #в bool смотрим число отличается ли от 0
