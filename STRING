@@ -1,0 +1,76 @@
+first_name = "Alice"
+last_name = "Smith"
+full_name = first_name + " " + last_name
+print(full_name)
+length = len(full_name)
+
+print(length)
+#####
+
+my_int = 100
+my_string = str(my_int)
+
+print(type(my_string))
+
+
+my_int = int("90")
+
+#my_int = int("yo") - упадет с ошибкой 
+print(type(my_int))
+
+#my_string = input("Enter a number: " )
+print(type(my_string))
+
+big_integer = 2 ** 1000
+print(len(str(big_integer)))
+
+my_str = "Hello_world"
+
+print("Hello" in my_str) #вернется булево входит ли в строку 
+
+my_stra = 'Alice'
+print(my_stra.upper())  # МЕТОД УВЕЛИЧЕНИЯ БУКВ
+10
+
+my_stra2 = 'ALICE'
+print(my_stra.lower())  # МЕТОД УВЕЛИЧЕНИЯ БУКВ
+
+my_stt = "         Hello, world!       "
+print(len(my_stt))
+print(len(my_stt.strip()))  #внутренний пробел не заменяет, ток справа и слева
+
+print(my_stt.replace("world", "Python")) #строка которую нужно заменить, и дальше замена
+print(my_stt.count("l")) #проверяем кол-во символов l в строке
+
+
+my_string2 = "10x"
+print(my_string2.isdigit()) #проверяет только чтобы символы были и выдает тру или фолс
+
+#integer = input("Enter a number: ")
+#if integer.isdigit():
+   # integer = int(integer)
+
+#print(type(integer))
+
+
+name = "alice"
+age = 25
+print(f"Hello, my name is {name}, and I'm {age} years old") #когда даем f в выводе то можно в строке передавать переменные в фигруных
+
+x = 10
+y = 5
+
+
+print(f"summary is {x + y}, multiplication is {x * y}")
+
+### FORMAT
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+txt2 = "My name is {0}, I'm {1}".format("John",36)
+txt3 = "My name is {}, I'm {}".format("John",36)
+
+
+a = "shakshi" # name 
+b = 22 # age
+
+msg = "My name is {0} and I am {1} years old.".format(a,b)
+print(msg)
